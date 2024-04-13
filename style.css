@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar {
+    margin: 0;
+    background-color: #08b1f3;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 40px !important;
+}
+
+li {
+    margin-right: 20px;
+    display: inline;
+}
+
+li>a {
+    text-decoration: none;
+    color: #c8fc0b;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.about {
+    position: relative;
+    text-align: center;
+}
+
+.about>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about>h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #08b1f3;
+}
+
+.about>p {
+    font-weight: 500;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #08b1f3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-links {
+    margin-right: 20px;
+    padding-top: 40px;
+}
+
+.fa-brands {
+    margin-right: 20px;
+}
+
+.logo {
+    padding-right: 700px;
+}
+
+.details {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.details>p>span {
+    font-weight: 600;
+}
+
+.details>p {
+    color: #c8fc0b;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-weight: 500;
+    display: inline;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1330px) {
+    .logo {
+        padding-right: 600px;
+    }
+}
+
+@media only screen and (max-width: 1245px) {
+    .logo {
+        padding-right: 500px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .logo {
+        padding-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 937px) {
+    .logo {
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .logo {
+        padding-right: 20px;
+    }
+}
